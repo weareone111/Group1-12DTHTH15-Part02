@@ -1,0 +1,11 @@
+01#Doraemon#2002#35200#Fujiko Fujio#4.2
+03#Harry Potter#2003#65200#J. K Rowling#4.8
+04#Naruto#1994#200000#Dung senpai#5.0
+05#Heelo#2009#60200#Huy hoang#4.8
+07#Jolie#2017#65100#Kilee#4.0
+08#Heiunm#1998#75100#Kenji#4.1
+09#One piece#1998#60100#Oda#4.8
+10#Heniii#2018#85100#Ani#4.3
+11#Holeei#1987#35100#Holiu#3.8
+12#Future#2007#45100#Jilu#4.5
+13#Unicoin#1997#55100#Elsa#4.9

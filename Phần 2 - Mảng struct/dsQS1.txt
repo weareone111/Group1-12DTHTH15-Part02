@@ -1,0 +1,67 @@
+11
+01
+Doraemon
+2002
+35200
+Fujiko Fujio
+4.2
+03
+Harry Potter
+2003
+65200
+J. K Rowling
+4.8
+04
+naruto
+1994
+200000
+dung senpai
+5.0
+05
+heelo
+2009
+60200
+huy hoang
+4.8
+07
+jolie
+2017
+65100
+kilee
+4.0
+08
+heiunm
+1998
+75100
+kenji
+4.1
+09
+one piece
+1998
+60100
+oda
+4.8
+10
+jeniii
+2018
+85100
+ani
+4.3
+11
+holeei
+1987
+35100
+holiu
+3.8
+12
+future
+2007
+45100
+jilu
+4.5
+13
+unicoin
+1997
+55100
+elsa
+4.9
