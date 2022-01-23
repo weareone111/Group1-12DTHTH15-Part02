@@ -42,6 +42,7 @@ struct Book{
 
 
 //Declare Function Prototype
+void Menu();
 void displayABook(Book book);
 void displayAllBooksInList(Book book[], int n);
 void enterBooksListFromFileHavingN(Book book[], int& n, string directory);
@@ -59,10 +60,10 @@ int main() {
     int k;
     do {
         system("cls");
-        Menu();//Them ham Menu
+        Menu();
         cout << "Hay chon phuong thuc : "; cin >> option;
         system("cls");
-        if (option > 3 && option <= 19 && option != 13 && n != 0) {
+        if (option > 3 && option <= 19 && n != 0) {
 			displayAllBooksInList(A, n);
 			cout << setfill('-');
 			cout << setw(110) << "-" << endl;
@@ -159,6 +160,27 @@ int main() {
 }
 
 //Writing Function Part
+void Menu() {
+	cout << "\t1. Lay thong tin tu file dsQS1" << endl;
+	cout << "\t2. Lay thong tin tu file dsQS2" << endl;
+	cout << "\t3. Xuat cac quyen sach trong danh sach" << endl;
+	cout << "\t4. Them mot quyen sach moi vao dau danh sach " << endl;
+	cout << "\t5. Them mot quyen sach moi vao cuoi danh sach " << endl;
+	cout << "\t6. Xoa mot quyen sach co Ma sach X " << endl;
+	cout << "\t7. Xoa cac quyen sach co so sao nho hon So sao X" << endl;
+	cout << "\t8. Xoa cac quyen sach cua tac gia X" << endl;
+	cout << "\t9. Cap nhat thong tin mot quyen sach " << endl;
+	cout << "\t10. Tra cuu thong tin cua mot quyen sach theo ten sach" << endl;
+	cout << "\t11. Liet ke tat ca quyen sach co gia lon hon hoac bang Gia X" << endl;
+	cout << "\t12. Liet ke cac quyen sach cua Tac gia X" << endl;
+	cout << "\t13. Liet ke cac quyen sach co nam xuat ban tu Nam XB va so sao lon hon Sao X" << endl;
+	cout << "\t14. Tong tien cac quyen sach trong danh sach" << endl;
+	cout << "\t15. Dem so sach co sao lon hon Sao X" << endl;
+	cout << "\t16. Dem so sach cua Tac gia X" << endl;
+	cout << "\t17. Sap xep cac quyen sach theo ten gia ban" << endl;
+	cout << "\t18. Sap xep cac quyen sach theo nam xuat ban moi nhat neu cung nam thi sap xep theo so sao Z -> A " << endl;
+	cout << "\t19. Sap xep cac quyen sach theo ten tac gia neu cung tac gia thi giam dan theo nam xuat ban" << endl;
+}
 //a.
 //Ham hien thi 1 cuon sach
 void displayABook(Book book) {
