@@ -6,7 +6,7 @@
 	+ 2001215790 - Nguyễn Huy Hoàng
 	+ 2001215664 - Nguyễn Công Dũng
 	+ 2001216306 - Lê Thị Khánh Vân
- - Last modify : 23:00 - 22/01/2022
+ - Last modify : 23:00 - 23/01/2022
 */
 //Declare Library
 #include <iostream>
@@ -53,6 +53,7 @@ void sortNegativeValuesAscendingOnColumn(int arr[][MAX], int n, int c);
 void sortMatrixHavingNegativeValuesAscendingAndPositiveValuesDescendingFromUpToDown(int arr[][MAX], int n);
 //
 
+//Main Function
 int main() {
 	int arr[MAX][MAX];
 	int n = 0;
@@ -150,6 +151,9 @@ int main() {
 	return 0;
 }
 
+//Function Writing Part
+
+//Ham menu
 void Menu() {
 	cout << "Welcome to Menu!" << endl;
 	cout << "1.\tTao ma tran bang cach phat sinh cac phan tu, cac phan tu thuoc doan [ -60 , 80 ] ." << endl;
