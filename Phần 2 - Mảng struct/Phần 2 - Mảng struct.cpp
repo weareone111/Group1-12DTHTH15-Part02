@@ -85,7 +85,7 @@ int main() {
         Menu();
         cout << "Hay chon phuong thuc : "; cin >> option;
         system("cls");
-        if (option > 3 && option <= 19 && n != 0) {
+        if (option > 3 && option <= 19) {
 			displayAllBooksInList(A, n);
 			cout << setfill('-');
 			cout << setw(100) << "-" << endl;
